@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="CustomStringFunctions"
+         name="CustomStringFunctions"
+         point="com.tibco.xml.cxf.common.customXPathFunction">
+      <customXPathFunctionGroup
+            id="customfunctions"
+            class="customfunctions.FormatacaoCPF">
+      </customXPathFunctionGroup>
+   </extension>
+   <extension
+         id="CustomStringFunctions"
+         name="CustomStringFunctions"
+         point="com.tibco.xml.cxf.common.customXPathFunction">
+      <customXPathFunctionGroup
+            class="customfunctions.FormatacaoCNPJ"
+            id="customfunctions">
+      </customXPathFunctionGroup>
+   </extension>
+   <extension
+         id="CustomStringFunctions"
+         name="CustomStringFunctions"
+         point="com.tibco.xml.cxf.common.customXPathFunction">
+      <customXPathFunctionGroup
+            class="customfunctions.FormatacaoCEP"
+            id="customfunctions">
+      </customXPathFunctionGroup>
+   </extension>
+   <extension
+         id="CustomStringFunctions"
+         name="CustomStringFunctions"
+         point="com.tibco.xml.cxf.common.customXPathFunction">
+      <customXPathFunctionGroup
+            class="customfunctions.NormalizacaoTexto"
+            id="customfunctions">
+      </customXPathFunctionGroup>
+   </extension>
+
+</plugin>
