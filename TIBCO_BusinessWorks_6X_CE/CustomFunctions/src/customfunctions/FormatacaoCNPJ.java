@@ -8,7 +8,7 @@ import com.tibco.xml.cxf.common.annotations.XPathFunctionParameter;
 public class FormatacaoCNPJ {
 
 	@XPathFunction(helpText = "Retorna o número do CNPJ no formato 99.999.999/9999-99.", parameters = {
-			@XPathFunctionParameter(name = "numeroCEP", optional = false, optionalValue = "") })
+			@XPathFunctionParameter(name = "numeroCNPJ", optional = false, optionalValue = "") })
 	public String formatarCNPJ(String numeroCNPJ) {
 		return FormatacaoTexto.formatarTexto(numeroCNPJ, "##.###.###/####-##");
 	}
