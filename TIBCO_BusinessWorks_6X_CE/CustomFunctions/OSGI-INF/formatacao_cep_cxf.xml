@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" factory="com.tibco.xml.cxf.user.http_tibco.bw.customfunctions_formatacao_cep" name="cxf.user.http_tibco.bw.customfunctions_formatacao_cep">
-   <implementation class="customfunctions.FormatacaoCEP"/>
-</scr:component>
