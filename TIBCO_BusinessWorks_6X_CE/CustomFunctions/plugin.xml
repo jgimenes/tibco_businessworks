@@ -3,38 +3,20 @@
 <plugin>
 
    <extension
-         id="CustomStringFunctions"
-         name="CustomStringFunctions"
+         id="CustomFunctions"
+         name="CustomFunctions"
          point="com.tibco.xml.cxf.common.customXPathFunction">
       <customXPathFunctionGroup
             id="customfunctions"
-            class="customfunctions.FormatacaoCPF">
+            class="customfunctions.FormatacaoCEP">
       </customXPathFunctionGroup>
    </extension>
    <extension
-         id="CustomStringFunctions"
-         name="CustomStringFunctions"
+         id="CustomFunctions"
+         name="CustomFunctions"
          point="com.tibco.xml.cxf.common.customXPathFunction">
       <customXPathFunctionGroup
             class="customfunctions.FormatacaoCNPJ"
-            id="customfunctions">
-      </customXPathFunctionGroup>
-   </extension>
-   <extension
-         id="CustomStringFunctions"
-         name="CustomStringFunctions"
-         point="com.tibco.xml.cxf.common.customXPathFunction">
-      <customXPathFunctionGroup
-            class="customfunctions.FormatacaoCEP"
-            id="customfunctions">
-      </customXPathFunctionGroup>
-   </extension>
-   <extension
-         id="CustomStringFunctions"
-         name="CustomStringFunctions"
-         point="com.tibco.xml.cxf.common.customXPathFunction">
-      <customXPathFunctionGroup
-            class="customfunctions.NormalizacaoTexto"
             id="customfunctions">
       </customXPathFunctionGroup>
    </extension>
