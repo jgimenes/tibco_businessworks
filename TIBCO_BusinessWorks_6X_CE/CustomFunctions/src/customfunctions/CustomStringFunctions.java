@@ -92,6 +92,13 @@ public class CustomStringFunctions {
 	public String inverterTexto(String texto) {
 		return new StringBuilder(texto).reverse().toString();
 	}
+	
+	@XPathFunction(helpText = "Mascarar número do cartão de crédito.", parameters = {
+			@XPathFunctionParameter(name = "numeroCartao", optional = false, optionalValue = "") })
+	public String mascararCartaoCredito(String numeroCartao) {
+		numeroCartao = normalizarTexto(numeroCartao);
+		return numeroCartao.replaceAll("(?<!^).(?=.{4})", "*");
+	}
 
 	@XPathFunction(helpText = "Contar as palavras de uma string.", parameters = {
 			@XPathFunctionParameter(name = "texto", optional = false, optionalValue = "") })
