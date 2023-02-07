@@ -6,7 +6,7 @@ Bundle-Version: 1.0.0.qualifier
 Bundle-Vendor: Julio Gimenes (jgimenes@gmail.com)
 Export-Package: customfunctions
 Bundle-RequiredExecutionEnvironment: JavaSE-11
-Service-Component: OSGI-INF/cxf.xml
+Service-Component: OSGI-INF/string_functions_cxf.xml
 Import-Package: com.tibco.xml.cxf.common.annotations
 Automatic-Module-Name: CustomFunctions
 Bundle-ActivationPolicy: lazy
